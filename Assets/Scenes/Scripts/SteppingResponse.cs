@@ -7,6 +7,8 @@ public class SteppingResponse : MonoBehaviour
     public GameObject player;
     public GameObject eye1;
     public GameObject eye2;
+    public GameObject lightEyes;
+    public GameObject warning;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,8 @@ public class SteppingResponse : MonoBehaviour
         {
             eye1.SetActive(true);
             eye2.SetActive(true);
+            lightEyes.SetActive(true);
+            warning.SetActive(true);
         }
     }
 }
